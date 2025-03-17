@@ -1,4 +1,4 @@
-# FastAPI CRUD Webpage with Frontend
+# FastAPI Webpage with CRUD Operations
 
 This is a **simple CRUD application** built using **FastAPI** (backend) and **HTML/CSS/JavaScript** (frontend). It allows users to **Create, Read, Update, and Delete (CRUD) items** via a web interface.
 
