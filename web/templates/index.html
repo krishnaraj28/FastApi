@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastAPI CRUD</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Product-Details</h1>
+
+    <div class="container">
+        <h2>Create Item</h2>
+        <input type="number" id="itemId" placeholder="Item ID">
+        <input type="text" id="itemName" placeholder="Item Name">
+        <input type="number" id="itemPrice" placeholder="Price">
+        <button onclick="createItem()">Create</button>
+    </div>
+
+    <div class="container">
+        <h2>Get All Items</h2>
+        <button onclick="getAllItems()">Fetch All</button>
+        <pre id="allItems"></pre>
+    </div>
+
+    <div class="container">
+        <h2>Get Item</h2>
+        <input type="number" id="getItemId" placeholder="Enter Item ID">
+        <button onclick="getItem()">Fetch</button>
+        <p id="getResult"></p>
+    </div>
+
+    <div class="container">
+        <h2>Update Item</h2>
+        <input type="number" id="updateItemId" placeholder="Item ID">
+        <input type="text" id="updateItemName" placeholder="New Name">
+        <input type="number" id="updateItemPrice" placeholder="New Price">
+        <button onclick="updateItem()">Update</button>
+    </div>
+
+    <div class="container">
+        <h2>Delete Item</h2>
+        <input type="number" id="deleteItemId" placeholder="Enter Item ID">
+        <button onclick="deleteItem()">Delete</button>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
