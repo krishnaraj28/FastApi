@@ -4,6 +4,7 @@ This is a **simple CRUD application** built using **FastAPI** (backend) and **HT
 
 ---
 
+
 ## 🚀 Features
 - **FastAPI Backend** with full CRUD operations
 - **Interactive Web UI** using HTML, CSS, and JavaScript
